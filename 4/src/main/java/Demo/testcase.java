@@ -24,7 +24,8 @@ public class testcase {
 		Homepage.searchProduct();
 //		Homepage.closePopup02();
 		commonAct.visibilityElement(Instances.Result01);
-		commonAct.getPrice(Instances.Result01);
+		String s20Price =commonAct.getPrice(Instances.Result01);
+		System.out.println(s20Price);
 	}
 	
 	@BeforeTest

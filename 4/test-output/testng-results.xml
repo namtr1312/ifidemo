@@ -1,79 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18345" started-at="2020-10-14T06:41:38Z" finished-at="2020-10-14T06:41:57Z">
+  <suite name="Default suite" duration-ms="51430" started-at="2020-10-15T11:07:14Z" finished-at="2020-10-15T11:08:05Z">
     <groups>
-      <group name="covid">
-        <method signature="google.step1()[pri:0, instance:google@4439f31e]" name="step1" class="google"/>
-      </group> <!-- covid -->
-      <group name="trump">
-        <method signature="google.steps1()[pri:0, instance:google@4439f31e]" name="steps1" class="google"/>
-      </group> <!-- trump -->
     </groups>
-    <test name="Default test" duration-ms="18345" started-at="2020-10-14T06:41:38Z" finished-at="2020-10-14T06:41:57Z">
-      <class name="google">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:google@4439f31e]" name="beforeTest" is-config="true" duration-ms="4314" started-at="2020-10-14T13:41:38Z" finished-at="2020-10-14T13:41:43Z">
+    <test name="Default test" duration-ms="51430" started-at="2020-10-15T11:07:14Z" finished-at="2020-10-15T11:08:05Z">
+      <class name="Demo.testcase">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Demo.testcase@36d4b5c]" name="beforeTest" is-config="true" duration-ms="13" started-at="2020-10-15T18:07:14Z" finished-at="2020-10-15T18:07:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="step1()[pri:0, instance:google@4439f31e]" name="step1" duration-ms="1226" started-at="2020-10-14T13:41:43Z" finished-at="2020-10-14T13:41:44Z">
+        <test-method status="PASS" signature="samsungS20price()[pri:0, instance:Demo.testcase@36d4b5c]" name="samsungS20price" duration-ms="50413" started-at="2020-10-15T18:07:14Z" finished-at="2020-10-15T18:08:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- step1 -->
-        <test-method status="PASS" signature="step2()[pri:0, instance:google@4439f31e]" name="step2" duration-ms="982" started-at="2020-10-14T13:41:44Z" finished-at="2020-10-14T13:41:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- step2 -->
-        <test-method status="PASS" signature="step3()[pri:0, instance:google@4439f31e]" name="step3" duration-ms="623" started-at="2020-10-14T13:41:45Z" finished-at="2020-10-14T13:41:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- step3 -->
-        <test-method status="PASS" signature="step4()[pri:0, instance:google@4439f31e]" name="step4" duration-ms="618" started-at="2020-10-14T13:41:45Z" finished-at="2020-10-14T13:41:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- step4 -->
-        <test-method status="PASS" signature="step5()[pri:0, instance:google@4439f31e]" name="step5" duration-ms="637" started-at="2020-10-14T13:41:46Z" finished-at="2020-10-14T13:41:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- step5 -->
-        <test-method status="PASS" signature="step6()[pri:0, instance:google@4439f31e]" name="step6" duration-ms="3621" started-at="2020-10-14T13:41:47Z" finished-at="2020-10-14T13:41:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- step6 -->
-        <test-method status="PASS" signature="step7()[pri:0, instance:google@4439f31e]" name="step7" duration-ms="64" started-at="2020-10-14T13:41:50Z" finished-at="2020-10-14T13:41:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- step7 -->
-        <test-method status="PASS" signature="steps1()[pri:0, instance:google@4439f31e]" name="steps1" duration-ms="512" started-at="2020-10-14T13:41:50Z" finished-at="2020-10-14T13:41:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- steps1 -->
-        <test-method status="PASS" signature="steps2()[pri:0, instance:google@4439f31e]" name="steps2" duration-ms="864" started-at="2020-10-14T13:41:51Z" finished-at="2020-10-14T13:41:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- steps2 -->
-        <test-method status="PASS" signature="steps3()[pri:0, instance:google@4439f31e]" name="steps3" duration-ms="572" started-at="2020-10-14T13:41:52Z" finished-at="2020-10-14T13:41:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- steps3 -->
-        <test-method status="PASS" signature="steps4()[pri:0, instance:google@4439f31e]" name="steps4" duration-ms="601" started-at="2020-10-14T13:41:52Z" finished-at="2020-10-14T13:41:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- steps4 -->
-        <test-method status="PASS" signature="steps5()[pri:0, instance:google@4439f31e]" name="steps5" duration-ms="612" started-at="2020-10-14T13:41:53Z" finished-at="2020-10-14T13:41:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- steps5 -->
-        <test-method status="PASS" signature="steps6()[pri:0, instance:google@4439f31e]" name="steps6" duration-ms="2273" started-at="2020-10-14T13:41:53Z" finished-at="2020-10-14T13:41:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- steps6 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:google@4439f31e]" name="afterTest" is-config="true" duration-ms="791" started-at="2020-10-14T13:41:56Z" finished-at="2020-10-14T13:41:57Z">
+        </test-method> <!-- samsungS20price -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Demo.testcase@36d4b5c]" name="afterTest" is-config="true" duration-ms="989" started-at="2020-10-15T18:08:04Z" finished-at="2020-10-15T18:08:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- google -->
+      </class> <!-- Demo.testcase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

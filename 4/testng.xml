@@ -3,12 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name=".google"/>
+      <class name="Demo.testcase"/>
     </classes>
   </test> <!-- Test -->
-  <group>
-  	<run>
-  		<include name="Google Advance Search"/>
-  	</run>
-  </group>
 </suite> <!-- Suite -->
